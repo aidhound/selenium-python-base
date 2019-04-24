@@ -1,0 +1,16 @@
+arrow
+colorama
+enum34
+lxml
+moment
+namedlist
+py
+pytest
+allure-pytest
+pytest-gitignore
+python-dateutil
+pytz
+selenium
+six
+times
+requests

@@ -1,0 +1,37 @@
+# Auto detect text files and perform LF normalization
+* text eol=lf
+
+# Source files
+# ============
+*.pxd       text diff=python eol=lf
+*.py        text diff=python eol=lf
+*.py3       text diff=python eol=lf
+*.pyw       text diff=python eol=lf
+*.pyx       text diff=python eol=lf
+*.md        text eol=lf
+*.txt       text eol=lf
+*.yml       text eol=lf
+
+# Binary files
+# ============
+*.db        binary
+*.p         binary
+*.pkl       binary
+*.pyc       binary
+*.pyd       binary
+*.pyo       binary
+
+# Custom for Visual Studio
+*.cs     diff=csharp
+
+# Standard to msysgit
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF	 diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain

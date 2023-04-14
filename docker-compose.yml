@@ -1,5 +1,11 @@
 version: "3.7"
 services:
+  py-3.10:
+    container_name: webapp
+    image: aidhound/selenium-base-python
+    build:
+      context: ./py-3.10
+      dockerfile: Dockerfile
   py-2.7:
     container_name: webapp
     image: aidhound/selenium-base-python
